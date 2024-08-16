@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#convertButton {
+    background-color: #007bff; /* Blue */
+}
+
+#convertButton:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+#clearButton {
+    background-color: #dc3545; /* Red */
+}
+
+#clearButton:hover {
+    background-color: #c82333; /* Darker Red */
+}
+
+#copyButton {
+    background-color: #28a745; /* Green */
+}
+
+#copyButton:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+#copyOldNameButton {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+}
+
+#copyOldNameButton:hover {
+    background-color: #e0a800; /* Darker Yellow */
+}
+
+#copyNewNameButton {
+    background-color: #17a2b8; /* Teal */
+}
+
+#copyNewNameButton:hover {
+    background-color: #138496; /* Darker Teal */
+}
+
+button:disabled {
+    background-color: #cccccc; /* Gray */
+    cursor: not-allowed;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+#outputCommand {
+    margin-bottom: 10px;
+}
+
+#copyMessage {
+    color: #28a745; /* Green */
+    margin-top: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}

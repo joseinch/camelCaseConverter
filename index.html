@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert File Name to camelCase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="letra-c.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Convert File Name to camelCase</h1>
+        <input type="text" id="inputFileName" placeholder="Enter file path and name">
+        <div class="buttons">
+            <button id="convertButton">Convert</button>
+            <button id="clearButton">Clear</button>
+        </div>
+        <div class="output">
+            <p id="outputCommand"></p>
+            <button id="copyButton" disabled>Copy to Clipboard</button>
+            <button id="copyOldNameButton" disabled>Copy Old Name</button>
+            <button id="copyNewNameButton" disabled>Copy New Name</button>
+            <p id="copyMessage" class="hidden">Copied to clipboard</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
